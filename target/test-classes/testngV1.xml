@@ -1,0 +1,68 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "All Suites" parallel="tests">
+
+    <test name = "Tg">
+        <groups>
+
+            <dependencies>
+                <group name="Tg" depends-on="forTg"/>
+            </dependencies>
+
+        </groups>
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SinCalc"/>
+            <class name ="com.epam.cdp.calcTestng.CosCalc"/>
+            <class name ="com.epam.cdp.calcTestng.TgCalc"/>
+
+        </classes>
+    </test>
+    <test name = "Sum Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SumCalc"></class>
+        </classes>
+    </test>
+    <test name = "Sub Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SubCalc"></class>
+        </classes>
+    </test>
+    <test name = "Mult Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.MultCalc"></class>
+        </classes>
+    </test>
+    <test name = "Sqrt Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SqrtCalc"></class>
+        </classes>
+
+    </test>
+
+    <test name = "Div Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.DivCalc"></class>
+        </classes>
+
+    </test>
+    <test name = "Sin Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SinCalc"></class>
+        </classes>
+
+    </test>
+    <test name = "Cos Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.CosCalc"></class>
+        </classes>
+
+    </test>
+
+    <test name = "Pos Calc Test">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.PosCalc"></class>
+        </classes>
+
+    </test>
+
+</suite>

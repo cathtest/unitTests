@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Group">
+
+    <test name = "Tg">
+        <groups>
+
+            <dependencies>
+                <group name="Tg" depends-on="forTg"/>
+            </dependencies>
+
+        </groups>
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SinCalc"/>
+            <class name ="com.epam.cdp.calcTestng.CosCalc"/>
+            <class name ="com.epam.cdp.calcTestng.TgCalc"/>
+
+        </classes>
+    </test>
+</suite>

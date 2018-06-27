@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SinCosTgCtg">
+
+    <test name = "sin">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SinCalc"></class>
+        </classes>
+    </test>
+    <test name = "cos">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.CosCalc"></class>
+        </classes>
+    </test>
+    <test name = "tg">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.TgCalc"></class>
+        </classes>
+    </test>
+    <test name = "ctg">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.CtgCalc"></class>
+        </classes>
+    </test>
+</suite>

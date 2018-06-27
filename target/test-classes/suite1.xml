@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Base">
+    <test name = "Base">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.Base"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Operations">
+    <test name = "sub">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SubCalc"></class>
+        </classes>
+    </test>
+    <test name = "sum">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.SumCalc"></class>
+        </classes>
+    </test>
+    <test name = "mult">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.MultCalc"></class>
+        </classes>
+    </test>
+    <test name = "div">
+        <classes>
+            <class name ="com.epam.cdp.calcTestng.DivCalc"></class>
+        </classes>
+    </test>
+</suite>
