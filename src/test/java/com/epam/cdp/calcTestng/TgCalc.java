@@ -7,8 +7,6 @@ import org.testng.annotations.Test;
     @Test (groups = "Tg")
 
 public class TgCalc extends Base{
-    SinCalc sin = new SinCalc();
-    CosCalc cos = new CosCalc();
 
     @Test(dataProvider = "valuesTgDouble", dependsOnGroups = {"forTg"}, priority = 3)
     public void tgDouble (double a,  double expectedValue) {
