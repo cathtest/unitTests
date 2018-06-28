@@ -9,7 +9,7 @@ public class MultCalc extends Base{
     @Test(dataProvider = "valuesMultDouble")
     public void multDouble( double a, double b, double expectedValue) {
         double rslt = calc.mult(a, b);
-        Assert.assertTrue(rslt==expectedValue, "There was an error");
+        Assert.assertEquals(rslt, expectedValue, "There was an error");
     }
 
 

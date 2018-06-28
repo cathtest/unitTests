@@ -16,7 +16,7 @@ public class SubCalc extends Base{
     @Test (dataProvider = "valuesSubDouble")
     public void minusDouble( double a, double b, double expectedValue) {
         double rslt = calc.sub(a, b);
-        Assert.assertTrue(rslt==expectedValue, "There was an error");
+        Assert.assertEquals(rslt, expectedValue, "There was an error");
     }
 
 

@@ -1,7 +1,5 @@
 package com.epam.cdp.calcJUnit;
 
-
-import com.epam.cdp.calcJUnit.JBase;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

@@ -1,17 +1,31 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name = "All Suites2">
+<suite name = "All Suites2" parallel="tests">
 
     <listeners>
         <listener class-name="com.epam.cdp.calcTestng.TestRetryAnalyzerListener" />
     </listeners>
 
+
+    <method-selectors>
+        <method-selector>
+            <script language="beanshell">
+                <![CDATA[whatGroup = System.getProperty("groupToRun");
+                groups.containsKey(whatGroup);
+                ]]>
+            </script>
+        </method-selector>
+    </method-selectors>
+
     <suite-files>
+
         <suite-file path="suite1.xml"/>
         <suite-file path="suite2.xml"/>
-        <suite-file path="suite3.xml"/>
         <suite-file path="suite4.xml"/>
+        <suite-file path="suite5.xml"/>
         <suite-file path="suite6.xml"/>
+        <suite-file path="suite3.xml"/>
+
     </suite-files>
 
     </suite>

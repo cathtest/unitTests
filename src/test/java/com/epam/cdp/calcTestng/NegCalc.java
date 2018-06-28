@@ -10,7 +10,7 @@ public class NegCalc extends Base{
     public void sqrtDouble (long a,  boolean expectedValue) {
 
         boolean rslt = calc.isPositive(a);
-        Assert.assertTrue(rslt== expectedValue, "Invalid input");
+        Assert.assertEquals(rslt, expectedValue, "Invalid input");
 
     }
     @DataProvider(name = "valuesNegLong")

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="19" total="19" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+    <test name="Tg" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- Tg -->
+  </suite> <!-- Group -->
+  <suite name="All Suites2" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+  </suite> <!-- All Suites2 -->
+  <suite name="SinCosTgCtg" duration-ms="37" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+    <test name="sin" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- sin -->
+    <test name="cos" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- cos -->
+    <test name="tg" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- tg -->
+    <test name="ctg" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- ctg -->
+  </suite> <!-- SinCosTgCtg -->
+  <suite name="SinCosTgCtg (0)" duration-ms="5" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+    <test name="Sqrt" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- Sqrt -->
+    <test name="Pow" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- Pow -->
+  </suite> <!-- SinCosTgCtg (0) -->
+  <suite name="Operations" duration-ms="14" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+    <test name="sub" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- sub -->
+    <test name="sum" duration-ms="1" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- sum -->
+    <test name="mult" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- mult -->
+    <test name="div" duration-ms="0" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- div -->
+  </suite> <!-- Operations -->
+  <suite name="Base" duration-ms="8" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    <groups>
+    </groups>
+    <test name="Base" duration-ms="8" started-at="2018-06-28T11:59:15Z" finished-at="2018-06-28T11:59:15Z">
+    </test> <!-- Base -->
+  </suite> <!-- Base -->
+</testng-results>
