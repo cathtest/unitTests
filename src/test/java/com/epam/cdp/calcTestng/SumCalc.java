@@ -5,12 +5,9 @@ import org.testng.annotations.DataProvider;
 
 import org.testng.annotations.Test;
 
-import com.epam.tat.module4.Calculator;
-
 
 public class SumCalc  extends Base {
 
-    protected Calculator calc;
 
 
     @Test (dataProvider = "valuesSumLong")

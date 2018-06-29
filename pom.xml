@@ -21,6 +21,13 @@
     </build>
     <dependencies>
         <dependency>
+            <groupId>com.epam.tat.module4</groupId>
+            <artifactId>Calculator</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/calculator-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.14.3</version>
